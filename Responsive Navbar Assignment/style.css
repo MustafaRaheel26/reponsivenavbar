@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: lawngreen;
+}
+
+.logo {
+    font-size: 70px;
+    margin: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-top: 39px;
+    margin-right: 45px;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:black;
+    font-weight: 550;
+}
+.hamburger{
+    display: none;
+}
+
+img{
+    width:100%;
+}
+
+@media only screen and (max-width: 760px){
+    .hamburger{
+        display: flex;
+        font-size: 40px;
+        margin: 30px;
+
+    }
+    .navbar{
+        display: none;
+    }
+    
+}
